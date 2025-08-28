@@ -1,0 +1,14 @@
+def FizzBuzz():
+    number = int(input("Please enter a number: "))
+    
+    if number % 3 == 0 and number % 7 == 0:
+        print("FizzBuzz")
+    elif number % 3 == 0:
+        print("Fizz")
+    elif number % 7 == 0:
+        print("Buzz")
+    else:
+        print(number)
+
+# Run the game
+FizzBuzz()
